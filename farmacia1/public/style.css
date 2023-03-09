@@ -1,0 +1,211 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	max-width: 1200px;
+	margin:
+  auto;
+  padding: 0 20px;
+}
+
+header {
+background-color: #ffffff;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+padding: 20px 0;
+}
+
+header h1 {
+float: left;
+font-size: 24px;
+}
+
+header form {
+float: left;
+margin-left: 20px;
+}
+
+header input[type="text"] {
+padding: 8px;
+border: none;
+border-radius: 3px;
+}
+
+header button {
+padding: 8px 15px;
+background-color: #0077b5;
+color: #ffffff;
+border: none;
+border-radius: 3px;
+margin-left: 10px;
+cursor: pointer;
+}
+
+nav ul {
+list-style: none;
+float: right;
+margin-top: 10px;
+}
+
+nav li {
+display: inline-block;
+margin-left: 20px;
+}
+
+nav a {
+color: #000000;
+text-decoration: none;
+font-size: 18px;
+}
+
+nav a:hover {
+color: #0077b5;
+}
+
+.catalogo h2 {
+margin-top: 30px;
+font-size: 28px;
+}
+
+.catalogo ul {
+list-style: none;
+margin-top: 20px;
+display: flex;
+flex-wrap: wrap;
+}
+
+.catalogo li {
+width: 30%;
+margin-right: 5%;
+margin-bottom: 20px;
+}
+
+.catalogo .medicamento {
+border: 1px solid #dddddd;
+padding: 10px;
+text-align: center;
+}
+
+.catalogo img {
+width: 100%;
+height: auto;
+margin-bottom: 10px;
+}
+
+.catalogo button {
+padding: 8px 15px;
+background-color: #0077b5;
+color: #ffffff;
+border: none;
+border-radius: 3px;
+margin-top: 10px;
+cursor: pointer;
+}
+
+.carrito h2 {
+margin-top: 30px;
+font-size: 28px;
+}
+
+.carrito ul {
+list-style: none;
+margin-top: 20px;
+}
+
+.carrito .medicamento {
+border: 1px solid #dddddd;
+padding: 10px;
+text-align: center;
+margin-bottom: 10px;
+}
+
+.carrito button {
+padding: 8px 15px;
+background-color: #0077b5;
+color: #ffffff;
+border: none;
+border-radius: 3px;
+cursor: pointer;
+margin-left: 10px;
+}
+
+.total {
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-end;
+margin-top: 20px;
+}
+
+.total p {
+font-size: 20px;
+font-weight: bold;
+margin-right: 10px;
+}
+
+.total button {
+padding: 8px 15px;
+background-color: #0077b5;
+color: #ffffff;
+border: none;
+border-radius: 3px;
+cursor: pointer;
+}
+
+footer {
+background-color: #f2f2f2;
+padding: 20px 0;
+margin-top: 30px;
+}
+
+footer p {
+font-size: 14px;
+text-align: center;
+color: #999999;
+}
+
+@media screen and (max-width: 768px) {
+.container {
+padding: 0 10px;
+}
+header h1 {
+	float: none;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+header form {
+	float: none;
+	text-align: center;
+	margin-left: 0;
+	margin-bottom: 20px;
+}
+
+nav ul {
+	float: none;
+	text-align: center;
+	margin-top: 20
+  px;
+}
+nav li {
+	display: block;
+	margin: 0;
+}
+
+.catalogo li {
+	width: 100%;
+	margin-right: 0;
+	margin-bottom: 20px;
+}
+
+.total {
+	flex-direction: column-reverse;
+	align-items: flex-end;
+}
+}
+
